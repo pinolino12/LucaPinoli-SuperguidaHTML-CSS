@@ -1,0 +1,713 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Dancing', sans-serif;
+    width: 100%;
+}
+
+#container {
+    height: 90px;
+    width: 100%;
+}
+
+#anchor {
+    width:100%;
+    height: 90px;
+    margin-top: -90px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+#social-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 7px 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+
+#social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+    margin-right: 50px;
+    
+}
+
+.instagram,
+.linkedin,
+.twitter {
+    width: 20px;
+    height: 20px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 0;
+    background-color: mediumpurple;
+    border-bottom: 3px solid white;
+    width: 100%;
+    height: 50px;
+}
+
+.name {
+    align-items: center;
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+}
+
+.name a{
+    text-decoration: none;
+}
+.name a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.name a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.name a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.name a:active {
+    text-decoration: none;
+    color:white;
+}
+
+.name a:visited:hover {
+  color: white;
+}
+
+.name a:visited:active {
+  color: white;
+}
+
+
+#menu {
+    width: 400px;
+    margin-right: 50px; 
+}
+
+#menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#menu li {
+    font-weight: bold;
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+
+.about,
+.services,
+.contact {
+    text-decoration: none;
+}
+
+.about:hover,
+.services:hover,
+.contact:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.about:link,
+.services:link,
+.contact:link {
+    text-decoration: none;
+    color: white;
+}
+
+.about:visited,
+.services:visited,
+.contact:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.about:active,
+.services:active,
+.contact:active {
+    text-decoration: none;
+    color:white;
+}
+
+.about:visited:hover,
+.services:visited:hover,
+.contact:visited:hover {
+  color: black;
+}
+
+.about:visited:active,
+.services:visited:active,
+.contact:visited:active {
+  color: white;
+}
+
+.welcome-section {
+    color: white;
+    width: 100%;
+    border-bottom: 3px solid white;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-home {
+    text-align: start;
+    margin-left: 50px;
+}
+
+.text-home h1 {
+    font-size: 100px;
+    color: mediumpurple;
+    text-shadow: -1.8px 0 white, 0 1.8px white, 1.8px 0 white, 0 -1.8px white;
+    width:100%;
+}
+
+.text-home h2 {
+    font-size: 50px;
+    width: 100%;
+    
+}
+
+.text-home h3 {
+    font-size: 30px;
+    width: 100%;
+}
+
+
+
+.luca-pinoli-image {
+    width: 600px;
+    height: 600px;
+    align-items: baseline;
+}
+
+#about {
+    background-color: mediumpurple;
+    text-align: center;
+    max-width: 100%;
+    padding: 20px 0;
+    border-bottom: 3px solid white;
+    font-size: 30px;
+    color: white;
+}
+
+.about-container {
+    background-color: mediumpurple;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height:auto;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    padding: 40px 0 20px 0;
+}
+
+.about-image {
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.about-text {
+    font-size: 20px;
+    margin-right: 50px;
+    width: 50%;
+}
+
+p strong {
+    color: purple;
+    font-weight: bold;
+}
+
+strong a {
+    text-decoration: underline;
+}
+
+strong a:link {
+    color: purple;
+}
+
+strong a:hover {
+    color: white;
+}
+
+strong a:visited {
+    color: purple;
+}
+
+strong a:active {
+    color: purple;
+}
+
+strong a:visited:hover {
+  color: white;
+}
+
+strong a:visited:active {
+  color: purple;
+}
+
+.inventor-title {
+    background-color: mediumpurple;
+    color: white;
+    padding: 20px 50px;
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+}
+
+.inventor-title h1 {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.inventor-container {
+    width:100%;
+    height: auto;
+    padding: 20px 0;
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.inventor-text {
+    font-size: 20px;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.inventor-text strong{
+    color: purple;
+    font-weight: bold;
+}
+
+.inventor-image {
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+
+.startupper-title {
+    background-color: mediumpurple;
+    color: white;
+    padding: 20px 50px;
+    width: 100%;
+    text-align: right;
+    font-size: 25px;
+}
+
+.startupper-title h1 {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.startupper-container {
+    background-color: mediumpurple;
+    height: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.startupper-text {
+    width: 50%;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.startupper-text strong{
+    color: purple;
+}
+
+.image-startupper {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.web-developer-student-title {
+    text-align: left;
+    background-color: mediumpurple;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 25px;
+}
+
+.web-developer-student-title h1 {
+    text-decoration: underline;
+    text-decoration-color: white;
+    margin: 0 50px;
+}
+
+.web-developer-student-container {
+    height: auto;
+    color: white;
+    background-color: mediumpurple;
+    border-bottom: 3px solid white;
+}
+
+.web-developer-student-text {
+    width: 100%;
+    font-size: 20px;
+    padding: 0 50px;
+}
+
+.web-developer-student-text strong{
+    color: purple;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px 50px;
+}
+
+.project {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.code {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+}
+
+.project:hover .code {
+    color: mediumpurple;
+    text-decoration: none;
+}
+
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.project-title {
+    font-size: 25px;
+    padding: 25px 15px;
+    text-decoration: none;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 50px 0;
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+    padding: 5px 20px;
+    font-size: 30px;
+    text-align: center;
+    background: white;
+    border: 2px solid white;
+    color: mediumpurple;
+    border-radius: 5px;
+}
+
+button:link {
+color: mediumpurple;
+}
+
+button:hover {
+    color: white;
+    background: mediumpurple;
+}
+
+button:visited {
+    color: mediumpurple;
+}
+
+button:active {
+    color: mediumpurple;
+}
+
+button:hover:visited {
+    color: white;
+    background: mediumpurple;
+}
+
+button:active:visited {
+    color: white;
+    background: mediumpurple;
+}
+
+.services-title{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 30px;
+    border-bottom: 3px solid white;
+}
+
+.services-container {
+    width: 100%;
+    font-size: 20px;
+    height: auto;
+    color: white;
+    background: black;
+    border-bottom: 3px solid white;
+}
+
+.services-text {
+    margin: 0 50px;
+    padding: 50px 0 20px 0;
+}
+
+.services-text strong{
+    color: mediumpurple;
+}
+
+.contact-title {
+    text-align: center;
+    background-color: mediumpurple;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    font-size: 30px;
+    border-bottom: 3px solid white;
+}
+
+.contact-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    height: auto;
+    color: white;
+    background-color: mediumpurple;
+    padding: 50px 0;
+    border-bottom: 3px solid white;
+}
+
+.contact-text a {
+    text-decoration: underline;
+}
+
+.contact-text a:link {
+    color: black;
+}
+
+.contact-text a:hover {
+    color: white;
+}
+
+.contact-text a:visited {
+    color: black;
+}
+
+.contact-text a:active {
+    color: black;
+}
+
+.contact-text a:visited:hover {
+  color: white;
+}
+
+.contact-text a:visited:active {
+  color: black;
+}
+
+.one-phrase-container {
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    border-bottom: 3px solid white;
+    width: 100%;
+    font-size: 15px;
+}
+
+p {
+    margin-bottom: 0;
+    text-align: justify;
+    line-height: 1.2em;
+  }
+
+@media only screen and (max-width: 401px) {
+    #menu {
+        display:none;
+    }
+    #social-icons {
+        margin-right: 20px;
+    }
+    .name {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .menu-container {
+            align-items: center;
+        }
+    .text-home {
+    text-align: start;
+    margin-left: 20px;
+}
+
+.text-home h1 {
+    font-size: 50px;
+}
+
+.text-home h2 {
+    font-size: 30px;    
+}
+
+.text-home h3 {
+    font-size: 15px;
+}
+
+
+
+.luca-pinoli-image {
+    display:none;
+}
+.welcome-section {
+    height: 100vh;
+}
+    .welcome-section::before {
+    content: '';
+    position: fixed;
+    top: 90px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(
+      115deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+        url(image/Output.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    .about-container {
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 30px 0 20px 0;
+}
+
+.about-image {
+    
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin:30px;
+}
+
+.about-text {
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+}
+    .inventor-container {
+    display: block;
+        padding: 30px 20px;
+}
+
+.inventor-text {
+    margin-left: 0;
+    width: 100%;
+}
+
+.inventor-image {
+    width: 300px;
+    height: 200px;
+    margin:0;
+    padding: 20px;
+}
+.startupper-container {
+    padding: 30px 20px;
+    display: block;
+}
+
+.startupper-text {
+    width: 100%;
+    margin:0;
+}
+
+.image-startupper {
+    width: 300px;
+    height: 300px;
+    margin:0;
+}
+    .inventor-title {
+    text-align: center;
+    font-size: 20px;
+}
+    .startupper-title {
+        text-align: center;
+        font-size: 20px;
+    }
+    .web-developer-student-title {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.web-developer-student-text {
+    padding: 0 20px;
+}
+
+
+
+.projects-grid {
+    padding: 20px 20px;
+}
+
+.services-text {
+    margin: 0 ;
+    padding: 30px 20px 20px 20px;
+}
+    .one-phrase-container {
+    padding: 20px 20px;
+        font-size: 10px;
+}
+}
